@@ -45,9 +45,9 @@ module.exports = appInfo => {
   // 配置数据库
   config.sequelize = {
     dialect: 'mysql',
-    host: '127.0.0.1',
+    host: '47.108.130.77',
     username: 'root',
-    password: 'root',
+    password: 'lcb369',
     port: 3306,
     database: 'egg-wechat2',
     // 中国时区
@@ -102,10 +102,10 @@ module.exports = appInfo => {
   // oss存储
   config.oss = {
     client: {
-      accessKeyId: 'LTAImXhhE9wnecVo',
-      accessKeySecret: '7Sm0RYNwZQ6oF661v0LHAKY27dOCZ5',
-      bucket: 'tangzhe123-com',
-      endpoint: 'oss-cn-shenzhen.aliyuncs.com',
+      accessKeyId: 'LTAI4GFKY5DyZbiyLNmv1eUg',
+      accessKeySecret: 'bNvwWbyyAr9f8UyQakIZqGlw6OJUhl',
+      bucket: 'im-2020oss',
+      endpoint: 'oss-cn-hangzhou.aliyuncs.com',
       timeout: '60s',
     },
   }
